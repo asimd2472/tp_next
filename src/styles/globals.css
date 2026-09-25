@@ -1,8 +1,12 @@
 @import "tailwindcss";
+@import "../components/Header/header.css";
+@import "../components/Banner/banner.css";
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #17345f;
+  --primary: #2d68c4;
+  --secondary: #c4d600;
 }
 
 @theme inline {
@@ -12,15 +16,16 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Myriad Pro", "Segoe UI", Arial, sans-serif;
+  margin: 0;
+}
+
+html { scroll-behavior: smooth; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  video { display: none; }
 }
