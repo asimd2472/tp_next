@@ -21,22 +21,76 @@ export default function Banner() {
   return (
     <>
       <section className="hero-banner" aria-label="Tata Pravesh banner">
-        <Image src={active.image} alt={active.alt} fill priority={activeBanner === 0} sizes="100vw" className="hero-banner__image" />
-        {active.type === "video" && <video key={active.src} className="hero-banner__video" autoPlay muted loop playsInline poster={active.image} aria-label={active.alt}><source src={active.src} type="video/mp4" /></video>}
+        <Image
+          src={active.image}
+          alt={active.alt}
+          fill
+          priority={activeBanner === 0}
+          sizes="100vw"
+          className="hero-banner__image"
+        />
+        {active.type === "video" && (
+          <video
+            key={active.src}
+            className="hero-banner__video"
+            autoPlay
+            muted
+            loop
+            playsInline
+            poster={active.image}
+            aria-label={active.alt}
+          >
+            <source src={active.src} type="video/mp4" />
+          </video>
+        )}
         <div className="hero-banner__overlay" />
         <div className="hero-banner__content">
           <p className="hero-banner__eyebrow">Premium doors &amp; windows</p>
-          <h1>Beautiful Homes<br />Begin with <span>Tata Pravesh</span></h1>
+          <h1>
+            Beautiful Homes
+            <br />
+            Begin with <span>Tata Pravesh</span>
+          </h1>
           <p className="hero-banner__description">Premium doors and windows for a safer, smarter and more beautiful tomorrow.</p>
-          <a href="#products" className="hero-banner__cta">Explore Now <span>-&gt;</span></a>
+          <a href="#products" className="hero-banner__cta">
+            Explore Now <span>-&gt;</span>
+          </a>
         </div>
-        <button type="button" aria-label="Previous banner" onClick={() => showBanner(activeBanner - 1)} className="hero-banner__previous">‹</button>
+        <button
+          type="button"
+          aria-label="Previous banner"
+          onClick={() => showBanner(activeBanner - 1)}
+          className="hero-banner__previous"
+        >
+          ‹
+        </button>
         <div className="hero-banner__controls" aria-label="Banner pagination">
-          {banners.map((banner, index) => <button key={banner.src} type="button" aria-label={`Show banner ${index + 1}`} aria-current={activeBanner === index} onClick={() => showBanner(index)} className={`hero-banner__dot ${activeBanner === index ? "hero-banner__dot--active" : ""}`} />)}
-          <button type="button" aria-label="Next banner" onClick={() => showBanner(activeBanner + 1)} className="hero-banner__next">›</button>
+          {banners.map((banner, index) => (
+            <button
+              key={banner.src}
+              type="button"
+              aria-label={`Show banner ${index + 1}`}
+              aria-current={activeBanner === index}
+              onClick={() => showBanner(index)}
+              className={`hero-banner__dot ${activeBanner === index ? "hero-banner__dot--active" : ""}`}
+            />
+          ))}
+          <button
+            type="button"
+            aria-label="Next banner"
+            onClick={() => showBanner(activeBanner + 1)}
+            className="hero-banner__next"
+          >
+            ›
+          </button>
         </div>
       </section>
-      <section id="products" className="product-strip"><p>Want to know more about our products?</p><a href="#home">Enquire Now <span>-&gt;</span></a></section>
+      <section id="products" className="product-strip">
+        <p>Want to know more about our products?</p>
+        <a href="#home">
+          Enquire Now <span>-&gt;</span>
+        </a>
+      </section>
     </>
   );
 }

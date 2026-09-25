@@ -12,7 +12,9 @@ export default function Home() {
       </Head>
       
       <Header />
-      <main id="home"><Banner /></main>
+      <main id="home">
+        <Banner />
+      </main>
     </>
   );
 }
