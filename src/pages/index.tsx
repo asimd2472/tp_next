@@ -5,6 +5,7 @@ import Features from "@/components/Features/Features";
 import Projects from "@/components/Projects/Projects";
 import WhyChoose from "@/components/WhyChoose/WhyChoose";
 import Blogs from "@/components/Blogs/Blogs";
+import ExpertsSay from "@/components/ExpertsSay/ExpertsSay";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Projects />
         <WhyChoose />
         <Blogs />
+        <ExpertsSay />
       </main>
     </>
   );
