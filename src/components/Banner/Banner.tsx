@@ -2,16 +2,43 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const banners = [
-  { type: "video", src: "/images/home-video.mp4", image: "/images/home-poster.jpg", alt: "A Tata Pravesh smart door in a modern home" },
-  { type: "image", src: "/images/home-poster.jpg", image: "/images/home-poster.jpg", alt: "A beautiful Tata Pravesh home interior" },
-  { type: "image", src: "/images/home-poster-2.jpg", image: "/images/home-poster-2.jpg", alt: "A premium Tata Pravesh entrance" },
+  {
+    type: "video",
+    src: "/images/home-video.mp4",
+    image: "/images/home-poster.jpg",
+    alt: "A Tata Pravesh smart door in a modern home",
+    eyebrow: "Premium doors & windows",
+    title: "Beautiful Homes",
+    highlight: "Tata Pravesh",
+    description: "Premium doors and windows for a safer, smarter and more beautiful tomorrow.",
+  },
+  {
+    type: "image",
+    src: "/images/home-poster.jpg",
+    image: "/images/home-poster.jpg",
+    alt: "A beautiful Tata Pravesh home interior",
+    eyebrow: "Thoughtful living",
+    title: "Modern Spaces",
+    highlight: "Made Better",
+    description: "Elegant design, durable performance, and everyday comfort for every corner of your home.",
+  },
+  {
+    type: "image",
+    src: "/images/home-poster-2.jpg",
+    image: "/images/home-poster-2.jpg",
+    alt: "A premium Tata Pravesh entrance",
+    eyebrow: "Smart home upgrades",
+    title: "A Grand Welcome",
+    highlight: "Every Day",
+    description: "Create a statement entry with premium finishes that blend beauty, security, and lasting value.",
+  },
 ];
 
 export default function Banner() {
   const [activeBanner, setActiveBanner] = useState(0);
 
   useEffect(() => {
-    const timer = window.setInterval(() => setActiveBanner((current) => (current + 1) % banners.length), 7000);
+    const timer = window.setInterval(() => setActiveBanner((current) => (current + 1) % banners.length), 20000);
     return () => window.clearInterval(timer);
   }, []);
 
@@ -45,25 +72,20 @@ export default function Banner() {
         )}
         <div className="hero-banner__overlay" />
         <div className="hero-banner__content">
-          <p className="hero-banner__eyebrow">Premium doors &amp; windows</p>
+          <p className="hero-banner__eyebrow">{active.eyebrow}</p>
           <h1>
-            Beautiful Homes
-            <br />
-            Begin with <span>Tata Pravesh</span>
+            {active.title}
+            {active.highlight && (
+              <>
+                <br />
+                <span>{active.highlight}</span>
+              </>
+            )}
           </h1>
-          <p className="hero-banner__description">Premium doors and windows for a safer, smarter and more beautiful tomorrow.</p>
           <a href="#products" className="hero-banner__cta">
-            Explore Now <span>-&gt;</span>
+            Explore Now 
           </a>
         </div>
-        <button
-          type="button"
-          aria-label="Previous banner"
-          onClick={() => showBanner(activeBanner - 1)}
-          className="hero-banner__previous"
-        >
-          ‹
-        </button>
         <div className="hero-banner__controls" aria-label="Banner pagination">
           {banners.map((banner, index) => (
             <button
@@ -75,20 +97,12 @@ export default function Banner() {
               className={`hero-banner__dot ${activeBanner === index ? "hero-banner__dot--active" : ""}`}
             />
           ))}
-          <button
-            type="button"
-            aria-label="Next banner"
-            onClick={() => showBanner(activeBanner + 1)}
-            className="hero-banner__next"
-          >
-            ›
-          </button>
         </div>
       </section>
       <section id="products" className="product-strip">
         <p>Want to know more about our products?</p>
         <a href="#home">
-          Enquire Now <span>-&gt;</span>
+          Enquire Now
         </a>
       </section>
     </>
