@@ -14,8 +14,8 @@ const banners = [
   },
   {
     type: "image",
-    src: "/images/home-poster.jpg",
-    image: "/images/home-poster.jpg",
+    src: "/images/Website-Banner.webp",
+    image: "/images/Website-Banner.webp",
     alt: "A beautiful Tata Pravesh home interior",
     eyebrow: "Thoughtful living",
     title: "Modern Spaces",
@@ -24,8 +24,8 @@ const banners = [
   },
   {
     type: "image",
-    src: "/images/home-poster-2.jpg",
-    image: "/images/home-poster-2.jpg",
+    src: "/images/Website-Banner.webp",
+    image: "/images/Website-Banner.webp",
     alt: "A premium Tata Pravesh entrance",
     eyebrow: "Smart home upgrades",
     title: "A Grand Welcome",

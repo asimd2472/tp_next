@@ -8,7 +8,7 @@ const posts = [
     title: "How to Choose the Right Windows for a Modern Home",
     description:
       "Discover key factors like material, style, energy efficiency and design to find the perfect windows for your home.",
-    image: "/images/home-poster.jpg",
+    image: "/images/entrance-door-400x250.webp",
     alt: "Modern living room with large windows",
   },
   {
@@ -18,7 +18,7 @@ const posts = [
     title: "5 Ways Premium Doors Transform Your Entrance",
     description:
       "See how the right door can enhance curb appeal, improve security and add lasting value to your home.",
-    image: "/images/home-poster-2.jpg",
+    image: "/images/entrance-door-400x250.webp",
     alt: "Modern front entrance with premium door",
   },
   {
@@ -28,7 +28,7 @@ const posts = [
     title: "Natural Light: Designing Brighter, More Comfortable Spaces",
     description:
       "Learn how natural light can improve mood, boost productivity and create a healthier, more inviting home.",
-    image: "/images/home-poster.jpg",
+    image: "/images/entrance-door-400x250.webp",
     alt: "Bright interior with large windows",
   },
 ];

@@ -4,30 +4,30 @@ const cards = [
   {
     id: 1,
     title: "Mr. Krsna Mehta",
-    image: "/images/sddefault.jpg",
+    image: "/images/inf.jpeg",
     alt: "Expert testimonial portrait",
     overlay: "",
   },
   {
     id: 2,
     title: "Ms. Riddhi Khosla Jalan",
-    image: "/images/sddefault.jpg",
+    image: "/images/inf.jpeg",
     alt: "Expert testimonial portrait",
-    overlay: "Ridhi, Which Window Should I Install?",
+    overlay: "",
   },
   {
     id: 3,
     title: "Ms. Rohina",
-    image: "/images/sddefault.jpg",
+    image: "/images/inf.jpeg",
     alt: "Expert testimonial portrait",
-    overlay: "Weather Proof Windows",
+    overlay: "",
   },
   {
     id: 4,
     title: "Ms. Binita Gandhi",
-    image: "/images/sddefault.jpg",
+    image: "/images/inf.jpeg",
     alt: "Expert testimonial portrait",
-    overlay: "Choosing Between UPVC and Aluminium Windows?",
+    overlay: "",
   },
 ];
 

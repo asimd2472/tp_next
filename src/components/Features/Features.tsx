@@ -8,7 +8,7 @@ const features = [
     title: "Superior Noise Insulation",
     description:
       "Enjoy peace and quiet with advanced soundproofing that blocks external noise and keeps your home calm.",
-    image: "/images/home-poster.jpg",
+    image: "/images/f1.jpeg",
     alt: "Modern living room with large premium windows",
     icon: "shield",
   },
@@ -18,7 +18,7 @@ const features = [
     title: "Energy Efficient",
     description:
       "Helps maintain indoor temperature, reduces energy bills and keeps your home comfortable throughout the year.",
-    image: "/images/home-poster-2.jpg",
+    image: "/images/f1.jpeg",
     alt: "Stylish home interior with glass windows",
     icon: "sun",
   },
@@ -28,7 +28,7 @@ const features = [
     title: "Dust and Pollution Free",
     description:
       "Unique sealing keeps dust and pollutants out, ensuring cleaner indoor air and a fresher living environment.",
-    image: "/images/home-poster.jpg",
+    image: "/images/f1.jpeg",
     alt: "Premium window and door detail with natural sunlight",
     icon: "sparkle",
   },
@@ -38,7 +38,7 @@ const features = [
     title: "Elegant, Modern Living",
     description:
       "Upgrade your home with refined design and durable materials that deliver beauty, comfort and long-term value.",
-    image: "/images/home-poster-2.jpg",
+    image: "/images/f1.jpeg",
     alt: "Contemporary entrance with premium doors and windows",
     icon: "home",
   },
