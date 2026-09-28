@@ -4,6 +4,7 @@
 @import "../components/Features/features.css";
 @import "../components/Projects/projects.css";
 @import "../components/WhyChoose/whyChoose.css";
+@import "../components/Blogs/blogs.css";
 
 :root {
   --background: #ffffff;
