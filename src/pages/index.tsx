@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Header from "@/components/Header";
 import Banner from "@/components/Banner";
+import Features from "@/components/Features/Features";
+import Projects from "@/components/Projects/Projects";
 
 export default function Home() {
   return (
@@ -10,10 +12,12 @@ export default function Home() {
         <meta name="description" content="Discover premium Tata Pravesh doors and windows for safer, smarter and more beautiful homes." />
         <meta name="theme-color" content="#2d68c4" />
       </Head>
-      
+
       <Header />
       <main id="home">
         <Banner />
+        <Features />
+        <Projects />
       </main>
     </>
   );

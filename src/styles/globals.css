@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @import "../components/Header/header.css";
 @import "../components/Banner/banner.css";
+@import "../components/Features/features.css";
+@import "../components/Projects/projects.css";
 
 :root {
   --background: #ffffff;
