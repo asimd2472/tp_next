@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Banner from "@/components/Banner";
 import Features from "@/components/Features/Features";
 import Projects from "@/components/Projects/Projects";
+import WhyChoose from "@/components/WhyChoose/WhyChoose";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Banner />
         <Features />
         <Projects />
+        <WhyChoose />
       </main>
     </>
   );

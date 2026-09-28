@@ -3,6 +3,7 @@
 @import "../components/Banner/banner.css";
 @import "../components/Features/features.css";
 @import "../components/Projects/projects.css";
+@import "../components/WhyChoose/whyChoose.css";
 
 :root {
   --background: #ffffff;
