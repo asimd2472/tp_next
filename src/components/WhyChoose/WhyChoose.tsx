@@ -54,7 +54,7 @@ export default function WhyChoose() {
     <section className="why-choose" aria-label="Why homeowners choose Tata Pravesh">
       <div className="why-choose__inner">
         <div className="why-choose__header">
-          <p className="why-choose__eyebrow">REAL STORIES</p>
+          {/* <p className="why-choose__eyebrow">REAL STORIES</p> */}
           <h2>
             Why Homeowners Choose <span>Tata Pravesh</span>
           </h2>

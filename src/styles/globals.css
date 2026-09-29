@@ -6,6 +6,8 @@
 @import "../components/WhyChoose/whyChoose.css";
 @import "../components/Blogs/blogs.css";
 @import "../components/ExpertsSay/expertsSay.css";
+@import "../components/Faq/faq.css";
+@import "../components/Footer/footer.css";
 
 :root {
   --background: #ffffff;

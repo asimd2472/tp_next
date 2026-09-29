@@ -6,6 +6,8 @@ import Projects from "@/components/Projects/Projects";
 import WhyChoose from "@/components/WhyChoose/WhyChoose";
 import Blogs from "@/components/Blogs/Blogs";
 import ExpertsSay from "@/components/ExpertsSay/ExpertsSay";
+import Faq from "@/components/Faq";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -24,7 +26,9 @@ export default function Home() {
         <WhyChoose />
         <Blogs />
         <ExpertsSay />
+        <Faq />
       </main>
+      <Footer />
     </>
   );
 }

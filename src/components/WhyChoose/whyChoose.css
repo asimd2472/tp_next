@@ -28,11 +28,17 @@
   font-size: clamp(2.4rem, 3.3vw, 4rem);
   line-height: 1;
   letter-spacing: -0.06em;
-  font-weight: 800;
+  font-size: 40px;
+  font-weight: 600;
 }
 
 .why-choose__header h2 span {
-  color: var(--primary);
+  /* color: var(--primary); */
+  color: #2d68c4;
+  background: linear-gradient(90deg, #2d68c4 0%, #2d68c4 25%, #c4d600 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .why-choose__subtitle {
