@@ -113,7 +113,6 @@ export default function Features() {
       <div className="features-section__inner">
         <div className="features-section__header">
           <div className="features-section__text-wrap">
-            <p className="features-section__eyebrow">Premium windows &amp; doors</p>
             <h2>Windows that Do More than Just Look Good</h2>
             <p className="features-section__lead">
               Thoughtfully designed for modern Indian homes, our windows bring in more natural light, better ventilation,

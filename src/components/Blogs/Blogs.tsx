@@ -39,7 +39,6 @@ export default function Blogs() {
       <div className="blogs-section__inner">
         <div className="blogs-section__header">
           <div className="blogs-section__title-wrap">
-            <p className="blogs-section__eyebrow">TIPS &amp; TRENDS</p>
             <h2>Latest Insights</h2>
             <p className="blogs-section__subtitle">
               Explore expert tips, design ideas and practical advice on doors, windows, interiors and modern living.

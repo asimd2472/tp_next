@@ -99,12 +99,12 @@ export default function Banner() {
           ))}
         </div>
       </section>
-      <section id="products" className="product-strip">
+      {/* <section id="products" className="product-strip">
         <p>Want to know more about our products?</p>
         <a href="#home">
           Enquire Now
         </a>
-      </section>
+      </section> */}
     </>
   );
 }

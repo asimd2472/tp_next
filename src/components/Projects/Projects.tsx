@@ -63,9 +63,8 @@ export default function Projects() {
       <div className="projects-section__inner">
         <div className="projects-section__header">
           <div className="projects-section__heading-block">
-            <p className="projects-section__eyebrow">ICONIC SPACES</p>
             <h2>
-              TATAPravash&apos;s <span>Iconic Projects</span>
+              TATA Pravash&apos;s <span>Iconic Projects</span>
             </h2>
           </div>
 
