@@ -11,7 +11,8 @@
 
 .utility-bar {
   display: block;
-  background: rgba(13, 13, 13, 0.97);
+  /* background: rgba(13, 13, 13, 0.97); */
+  background: #c4d600;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   color: #fff;
   font-family: inherit;
@@ -258,11 +259,13 @@
 .tata-pravesh-logo {
   position: absolute;
   top: 50%;
-  right: 0;
+  /* right: 0; */
+  right: -10px !important;
   transform: translateY(-50%);
   display: none;
   width: clamp(170px, 20vw, 270px);
-  height: 64px;
+  /* height: 64px; */
+  height: 85px !important;
   overflow: visible;
   box-shadow: none;
   filter: none;
